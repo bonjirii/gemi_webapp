@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>作業記録アプリ</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="calendar"></div>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close-button">&times;</span>
+      <h2>作業記録</h2>
+      <label for="work-type">作業の種類:</label>
+      <select id="work-type">
+        <option value="study">勉強</option>
+        <option value="exercise">運動</option>
+        <option value="work">仕事</option>
+      </select>
+      <label for="work-content">作業内容:</label>
+      <textarea id="work-content"></textarea>
+      <button id="save-button">保存</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
